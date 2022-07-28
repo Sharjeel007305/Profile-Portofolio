@@ -13,32 +13,42 @@ function Experience() {
         <div className="experience_content">
 
         <article className="experience_details">
-          <BsPatchCheckFill />
+          <BsPatchCheckFill className="experience_details-icon" />
+          <div>
           <h4>HTML</h4>
           <small className="text-light">Experienced</small>
+          </div>
         </article>
 
         <article className="experience_details">
-          <BsPatchCheckFill />
+          <BsPatchCheckFill className="experience_details-icon" />
+          <div>
           <h4>CSS</h4>
           <small className="text-light">Intermediate</small>
+          </div>
         </article>
 
         <article className="experience_details">
-          <BsPatchCheckFill />
+          <BsPatchCheckFill className="experience_details-icon" />
+          <div>
           <h4>Bootstrap</h4>
           <small className="text-light">Experienced</small>
+          </div>
         </article>
 
         <article className="experience_details">
-          <BsPatchCheckFill />
+          <BsPatchCheckFill className="experience_details-icon" />
+          <div>
           <h4>Tailwind</h4>
           <small className="text-light">beginner</small>
+          </div>
         </article>
         <article className="experience_details">
-          <BsPatchCheckFill />
+          <BsPatchCheckFill className="experience_details-icon" />
+          <div>
           <h4>React</h4>
           <small className="text-light">Experienced</small>
+          </div>
         </article>
         </div>
         </div>
@@ -48,27 +58,35 @@ function Experience() {
         <div className="experience_content">
 
         <article className="experience_details">
-          <BsPatchCheckFill />
+          <BsPatchCheckFill className="experience_details-icon" />
+          <div>
           <h4>Node Js</h4>
           <small className="text-light">Intermediate</small>
+          </div>
         </article>
 
         <article className="experience_details">
-          <BsPatchCheckFill />
+          <BsPatchCheckFill className="experience_details-icon" />
+          <div>
           <h4>MonogoDB</h4>
           <small className="text-light">Intermediate</small>
+          </div>
         </article>
 
         <article className="experience_details">
-          <BsPatchCheckFill />
+          <BsPatchCheckFill className="experience_details-icon" />
+          <div>
           <h4>Expess</h4>
           <small className="text-light">Intermediate</small>
+          </div>
         </article>
 
         <article className="experience_details">
-          <BsPatchCheckFill />
+          <BsPatchCheckFill className="experience_details-icon" />
+          <div>
           <h4>My SQL</h4>
           <small className="text-light">beginner</small>
+          </div>
         </article>
         </div>
         </div>
