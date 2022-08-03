@@ -50,7 +50,7 @@ const data = [
   image: "IMG6",
   title: "Charts templates & infographics in Figma",
   github:"https://github.com",
-  demo:"https://dribble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma"
+  demo:"https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma"
   },
   
   ];
@@ -61,16 +61,16 @@ const Portfolio = () => {
       <h5> My React Work</h5>
       <h2> Protoflio</h2>
       <div className="container portfolio_container">
-        {data.map(({id, image, title, hithub, demo}) =>{
+        {data.map(({id, image, title, github, demo}) =>{
             return (
-              <article className="portfolio_item">
+              <article key={id} className="portfolio_item">
               <div className="portfolio_item-image">
-                <img src={IMG1} alt=""/>
+                <img src={image} alt={title}/>
               </div>
-              <h3>This is a portfolio item title</h3>
+              <h3>{title}</h3>
               <div className="portfolio_item-cta">
-              <a href="https://github.com" className="btn" target="_blank">Github</a>
-              <a href="https://dribbble.com/SharjeelKhan007?onboarding=true" className="btn btn-primary" target="_blank">Live Demo</a>
+              <a href={github} className="btn" target="_blank">Github</a>
+              <a href={demo} className="btn btn-primary" target="_blank">Live Demo</a>
               </div>
               </article>
               )
